@@ -1,0 +1,10 @@
+/tick sprint 60s
+/time set night
+/time set day
+/difficulty peaceful
+/gamemode creative JohannesAde
+/give Player954 minecraft:jukebox
+/give Player954 minecraft:music_disc_11
+/time set day
+/time set night
+/time set day

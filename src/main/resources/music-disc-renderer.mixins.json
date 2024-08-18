@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "de.johnadept.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"plugin": "de.johnadept.MusicDiscRendererMixinPlugin",
+	"mixins": [
+      "JukeboxBlockEntityMixin",
+		"BlockEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

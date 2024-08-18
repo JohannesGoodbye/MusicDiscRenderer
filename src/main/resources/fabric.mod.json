@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "music-disc-renderer",
+	"version": "${version}",
+	"name": "Music Disc Renderer",
+	"description": "This mod tries to render the music disc items on the jukebox when inserted.",
+	"authors": [
+		"John Adept"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/music-disc-renderer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.johnadept.MusicDiscRenderer"
+		],
+		"client": [
+			"de.johnadept.MusicDiscRendererClient"
+		]
+	},
+	"mixins": [
+		"music-disc-renderer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
